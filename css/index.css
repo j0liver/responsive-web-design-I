@@ -258,14 +258,15 @@ footer {
 
 
 @media screen and (max-width:500px) {
-    .top-content{
+     .main-content .top-content{
         flex-direction: column;
         width: 100%;
         align-items: center;
-        margin: 0%;
+        
     }
-    .top-content .text-content{
+     .main-content .top-content .text-content{
         margin: 20px 0;
+        width:100%;
        
     }
     .middle-img{
